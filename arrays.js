@@ -6,29 +6,39 @@ const posts = [{
     title: "mi primer post",
     image: "htpps://img.com/1",
     tags: ["javascript", "webdebelopment"],
-},{
+}, {
     id: 2,
     title: "mi experiencia con React",
     image: "htpps://img.com/2",
     tags: ["javascript", "webdebelopment", "React"],
 
-},{
+}, {
     id: 3,
     title: "por que deje Angular",
     image: "htpps://img.com/3",
-    tags: ["javascript", "webdebelopment","Angular"],
+    tags: ["javascript", "webdebelopment", "Angular"],
 }]
 
 //ARRAY ARRAY INVENTARIO
 const inventario = [
-    {nombre: 'manzanas', 
-    cantidad: 2},
-    {nombre: 'bananas', 
-    cantidad: 0},
-    {nombre: 'cerezas', 
-    cantidad: 5}
+    {
+        nombre: 'manzanas',
+        cantidad: 2
+    },
+    {
+        nombre: 'bananas',
+        cantidad: 0
+    },
+    {
+        nombre: 'cerezas',
+        cantidad: 5
+    }
 ];
-//METODO FIND (buscar)// para imprimir descomentar.
+
+//PASO 2: METODOS DE ARRAYS
+
+//1° METODO FIND (buscar)// para imprimir descomentar.
+
 // const found = posts.find(post => post.image == "htpps://img.com/3");
 // console.log(found);
 
@@ -36,10 +46,13 @@ const inventario = [
 // console.log(found);
 
 
-//METODO MAP (mapear)// para imprimir descomentar.
-const foundPost = posts.map(posts => posts.title);
-console.log(foundPost);
+//2° METODO MAP (mapear)// para imprimir descomentar.
 
-const foundInventario = inventario.map(inventario => inventario.nombre);
-console.log(foundInventario);
+//PARA IMPRIMIR UNA LISTA CON LOS TITULOS DE LOS POSTS
+// const foundPost = posts.map(posts => posts.title);
+// console.log(foundPost);
+
+//PARA IMPRIMIR UNA LISTA CON LOS NOMBRES DEL INVENTARIO
+// const foundInventario = inventario.map(inventario => inventario.nombre);
+// console.log(foundInventario);
 
